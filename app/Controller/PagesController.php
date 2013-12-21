@@ -73,4 +73,11 @@ class PagesController extends AppController {
 			throw new NotFoundException();
 		}
 	}
+
+
+	function about() {
+	   $this->set('page_for_layout', 'about');
+	}
+
+
 }
