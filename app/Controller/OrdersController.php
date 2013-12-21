@@ -21,7 +21,7 @@ class OrdersController extends AppController {
 		
          if (!empty($this->data)) {
         $this->Order->set($this->data);
-        $this->Email->to = 'naveen.maisasolutions@gmail.com';
+        $this->Email->to = 'pradeep.benjaram@gmail.com';
         $this->Email->subject = 'Order Details';
         $this->Email->template = 'default';
         $this->Email->from = 'maisadeveloper1@gmail.com';
