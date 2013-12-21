@@ -275,37 +275,13 @@ box-shadow: 0 0 50px #222;
 .social-icons li a {
     background-color:transparent;
 }
-}
-.social-icons li.blogger a {
-    background: url(icons/blogger.png) no-repeat 0 0;
-}
-.social-icons li.blogger a:hover {
-    background-color: #fb913f;
-}
 .social-icons li.facebook a {
     background: url(../img/facebook.png) no-repeat 0 0;
 }
 .social-icons li.facebook a:hover {
     background-color: #3b5998;
 }
-.social-icons li.google a {
-    background: url(../img/google.png) no-repeat 0 0;
-}
-.social-icons li.google a:hover {
-    background-color: #dd4b39;
-}
-.social-icons li.skype a {
-    background: url(../img/skype.png) no-repeat 0 0;
-}
-.social-icons li.skype a:hover {
-    background-color: #18b7f1;
-}
-.social-icons li.twitter a {
-    background: url(../img/twitter.png) no-repeat 0 0;
-}
-.social-icons li.twitter a:hover {
-    background-color: #48c4d2;
-}
+
 
 /* Menu bar css */
 #menu {
