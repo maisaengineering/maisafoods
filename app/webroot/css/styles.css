@@ -1,16 +1,26 @@
 .container {
-	max-width: 1000px !important;
-	}
+	max-width: 970px !important;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before, .container:after {
+display: table;
+content: " ";
+}
+
 .header{
 	max-width: 100% !important;
 	height: 100px;
 	background-color:#CE212D;
-    position: relative;
+  position: relative;
 }
 .logo{
-    width: 200px;
-height: 99px;
-margin-left: 4px;
+  width: 200px;
+  height: 99px;
+  margin-left: 4px;
  }
 .footer{
 	max-width: 1000px !important;
@@ -23,12 +33,12 @@ margin-left: 4px;
 	background-color: #EBB035;
 }
 .block_content{
-    background-color: #ffffff;
-    width: 900px;
-    min-height: 350px;
-    border-radius: 20px;
-    margin-left: 35px;
-    margin-top: 5px;
+  background-color: #ffffff;
+  width: 900px;
+  min-height: 350px;
+  border-radius: 20px;
+  margin-left: 35px;
+  margin-top: 5px;
 
 }
 .block_one{
@@ -235,7 +245,7 @@ box-shadow: 0 0 50px #222;
 
 .social-icons {
     padding: 1px !important;
-    margin-top: 28px;
+    margin-top: 15px;
     float:right;
     list-style-type: none!important;
 }
@@ -297,25 +307,13 @@ box-shadow: 0 0 50px #222;
     background-color: #48c4d2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Menu bar css */
 #menu {
   position:relative;
   height:38px;
  /* background-color: #EBB035;*/
   z-index:1000;
-  width: 658px;
+  width: 760px;
   float:right;
   top: 61px;
   border-radius: 10px;
@@ -344,14 +342,12 @@ box-shadow: 0 0 50px #222;
 }
 #menu li {
   float:left;
-  background:url(../img/pix.gif);
   margin-right: 10px;
 }
 #menu li li { float:none; }
 #menu div {
   display:none;
   position:absolute;
-  background:url(../img/pix.gif);
   margin-top:-5px;
   width:200px;
 }
@@ -400,11 +396,8 @@ box-shadow: 0 0 50px #222;
   font-weight: 500;
 }
 
-#menu a {
-  background:url(../img/item.png) no-repeat left -274px;
-}
 
-#menu a span { background:url(../img/item.png) no-repeat right -4px; }
+
 #menu li.current>a { background-position:left -319px; }
 #menu li.current>a span { background-position:right -94px; }
 #menu a.parent span {
@@ -576,3 +569,7 @@ box-shadow: 0 0 50px #222;
 
 
 .clear{clear: both;}
+
+li a {
+  text-decoration: none !important;
+}

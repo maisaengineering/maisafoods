@@ -4,9 +4,9 @@
              <div align="right" style="font-weight:bold; margin:5px 3px 0 0;"><a href="javascript:void()" class="close">
                 <img src="img/close1.png" width="16" style="border:none; cursor:pointer;" /></a>
              </div>
-            <div align="center" style="margin:5px 0 5px 0;">
-                 MAISA FOODS
-              <a href="Order"><img src="img/popup.png"width="960"></a>
+            <div align="center" style="margin:6px 0 5px 0;">
+                 
+              <a href="Order"><img src="img/popup.png"width="910"></a>
             </div>
             <!-- Mask to cover the whole screen -->
           </div>

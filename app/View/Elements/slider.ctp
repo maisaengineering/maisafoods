@@ -1,7 +1,5 @@
 <link rel="stylesheet" href="./app/webroot/css/bjqs.css">	   
-<link rel="stylesheet" href="./app/webroot/css/demo.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<link rel="stylesheet" href="./app/webroot/css/slider.css">
 <script src="./app/webroot/js/bjqs-1.3.min.js"></script>
 <script src="./app/webroot/js/popup.js"></script>
 <div id="banner-slide">

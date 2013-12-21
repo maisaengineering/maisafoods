@@ -50,7 +50,6 @@
 	<img src="img/coupons.png">
 	<br>
 	<br>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="js/lightbox.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
     <a href="img/c1.png" rel="lightbox" title="Print This Coupon"><img src="img/c1.png" width="300" height="90"></a>

@@ -1,5 +1,5 @@
 <div class="header">
-  <img src="img/Maisa_masala_logo.png" class="logo">
+  <a href="Home"><img src="img/logo.png" class="logo"></a>
       <div id="menu" class="globalfont">
           <ul class="menu">
             <li id="Home" class="arrow current" style="border-radius:10px;">
